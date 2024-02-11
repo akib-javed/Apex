@@ -1,0 +1,357 @@
+body{
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+.header{
+ background-color: whitesmoke;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: end;
+}
+.header span{
+    margin-left: 5px;
+}
+.parent{
+    background-image: url("../Images/body.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parent .menubar:hover{
+    color: black;
+    background-color: white;
+}
+.top-right{
+    display: flex;
+    color: rgb(17, 16, 16);
+    text-decoration: none;
+    padding: 5px 20px;
+    position: relative;
+    
+}
+.header a:hover{
+    display: flex;
+    text-decoration: underline;
+}
+.menubar{ 
+    
+    padding: 10%;
+    display: flex;
+    align-items: center;
+    font-size: 1.3rem;
+    padding-top: 0px;
+    justify-content: space-between;
+   
+}
+.imgsize1{
+    height: 60px;
+    width: 180px;
+   bottom: 5px;
+}
+.menubar a{
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    
+}
+.parent .menubar .icon{
+    color: white;
+    padding: 5px 20px;
+    
+    
+}
+.tagline{
+    text-align: center;
+}
+.tag{
+    color: white;
+    font-size: 40px;
+}
+.btn{
+    padding: 100px;
+}
+.btn button{
+    background-color: black;
+    border-radius: 5px;
+    height: 40px;
+    color: white;
+    border: 1px solid white;
+
+}
+.btn button:hover{
+    background-color: white;
+    color: black;
+}
+.thirdsection{
+    height: 800px;
+    width: 100%;
+    background-color: black;
+}
+.thirdsection .third1{
+    color: white;
+    padding: 80px;
+    font-size: 25px;
+}
+
+.thirdsection .third1 .third-out{
+    border-radius: 5px;
+    height: 40px;
+    width: 110px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
+}
+.thirdsection .third1 .third-out:hover{
+    background-color: white;
+    color: black;
+}
+  .img1{
+    height: 400px;
+    width: 700px;
+    margin-left: 60px;
+    display: flex;
+    margin-top: 10px;
+    float: left;
+  } 
+  .third{
+    position: relative;
+  }
+ .third video{
+   position: absolute;
+    left: 38%;
+    bottom: -250px;
+  }
+  .third .img1{
+    position: absolute;
+    z-index: 1;
+  }
+  .table{
+    margin-top: 50px;
+       
+  }
+  .table a{
+    color: black;
+  }
+  .table img:hover{
+    font-size: 110%;
+
+  }
+  .java{
+    margin-top: 55px;
+  }
+  
+.title{
+    color: white;
+    text-align: center;
+    position: relative;
+}
+.wedding{
+    background-color: white;
+    color: black;
+    padding: 15px;
+}
+.bordor{
+    border: 3px solid white;
+    height: 500px;
+    position: relative;
+}
+.title::before{
+    content: "";
+    position: absolute;
+    height: 35px;
+    width: 89%;
+    top: 25px;
+    right: 6.5%;
+    background-color: transparent;
+    border: 1px solid black;
+    z-index: -1;
+    border-bottom: 0px;
+}
+.bordor::after{
+    content: "";
+    position: absolute;
+    height: 35px;
+    width: 89%;
+    bottom: 25px;
+    right: 6.5%;
+    background-color: transparent;
+    border: 1px solid black;
+    z-index: -1;
+    border-top: 0px;
+}
+.imgsize{
+    height: 300px;
+    width: 300px;  
+}
+.center{
+    text-align: center;
+
+}
+
+.container{
+    margin: 0;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    
+}
+
+.images{
+    width: 50px;
+    width: 50px;
+}
+.div1{
+    border: 1px solid black;
+    padding: 10px;
+}
+.div2{
+    border: 1px solid black;
+    padding: 10px;
+}
+.div3{
+    border: 1px solid black;
+    padding: 10px;
+}
+.div4{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+/* cart suru akhan theke */
+.cart{
+    display: flex;
+    width: 30%;
+}
+.cart-img{
+    height: 700px;
+    width: 800px;
+padding: 5px;
+margin-left: 40px;
+margin-bottom: 20px;
+}
+#bold{
+    margin-left: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+#blur{
+    margin-left: 50px;
+    opacity: .5;
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+}
+
+.div-right{
+    float: right;
+    margin-right:50px ;
+    margin-top: 0;
+
+}
+#icon-space{
+    margin-left: 15px;
+}
+#view{
+    text-decoration: none;
+    color: black;
+    float: left;
+    padding-right: 15px;
+}
+.div-right a span:hover{
+    color: white;
+    background-color: black;
+    transition: .5s;
+
+}
+#view:hover{
+    text-decoration: underline;
+}
+.shoes img{
+    height: 240px;
+    width: 265px;
+    float: left;
+    margin-left: 40px;
+    
+}
+.clear{
+    clear: both;
+}
+.shoes2 img{
+    float: left;
+    display: flex;
+    height: 280px;
+    width: 300px;
+    padding: 5px;
+    margin-left: 150px;
+}
+.container2{
+    
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    
+    
+   
+}
+
+.container2 .d6 ul li{
+   text-align: center;
+    list-style-type: none;
+}
+h4{
+   text-align: center;
+}
+ .d5{
+    margin-left: 50px;
+ }
+ #inp{
+    border-radius: 5px;
+    font-size: 150%;
+ }
+ #hoverbt{
+    font-size: 150%;
+    color: white;
+    background-color: black;
+ }
+ #hoverbt:hover{
+    background-color: white;
+    color: black;
+ }
+
+.d8 img{
+    margin-right: 50px;
+    height: 80px;
+    width: 200px;
+}
+.logo-img{
+    height: 60px;
+    width: 100px;
+    
+}
+
+.logo-img1{
+     height: 60px;
+    width: 80px;
+    text-align: center;
+}
+.d6 ul li{
+    list-style-type: none;
+    
+}
+.d6 ul li a{
+    text-decoration: none;
+    color: black;
+}
+.d7 ul li{
+    list-style-type: none;
+    text-align: center;
+    text-decoration: none;
+}
+.d7 ul li a{
+    text-decoration: none;
+    color: black;
+}

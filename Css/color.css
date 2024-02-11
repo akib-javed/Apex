@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.d1{
+    height: 250px;
+    background-color: #FF841F;
+}
+.d2{
+    height: 250px;
+    background-color:#FF1300 ;
+    width: 450px;
+   float: left;
+}
+.d3{
+    width: 900px;
+height: 250px;
+background-color:#AF59A9 ;
+float: left;
+}
+.div4{
+    height: 250px;
+    background-color: blue;
+}
+.d5{
+    height: 250px;
+    background-color: green;
+}
