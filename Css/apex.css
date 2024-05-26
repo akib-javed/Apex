@@ -314,6 +314,7 @@ body {
 
 #view:hover {
     text-decoration: underline;
+    color: white;
 }
 
 .shoes img {
