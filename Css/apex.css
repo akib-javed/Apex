@@ -1,76 +1,90 @@
-body{
+body {
     margin: 0;
     font-family: 'Inter', sans-serif;
 }
 
-.header{
- background-color: whitesmoke;
+.header {
+    background-color: whitesmoke;
     padding: 10px 20px;
     display: flex;
     justify-content: end;
 }
-.header span{
+
+.header span {
     margin-left: 5px;
 }
-.parent{
+
+.parent {
     background-image: url("../Images/body.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
 }
-.parent .menubar:hover{
+
+.parent .menubar:hover {
     color: black;
     background-color: white;
 }
-.top-right{
+
+.top-right {
     display: flex;
     color: rgb(17, 16, 16);
     text-decoration: none;
     padding: 5px 20px;
     position: relative;
-    
+
 }
-.header a:hover{
+
+.header a:hover {
     display: flex;
     text-decoration: underline;
 }
-.menubar{ 
-    
+
+.menubar {
+
     padding: 10%;
     display: flex;
     align-items: center;
     font-size: 1.3rem;
     padding-top: 0px;
     justify-content: space-between;
-   
+
 }
-.imgsize1{
+
+.imgsize1 {
     height: 60px;
     width: 180px;
-   bottom: 5px;
+    bottom: 5px;
 }
-.menubar a{
+
+.menubar a {
     color: white;
     padding: 10px;
     text-decoration: none;
-    
+
 }
-.parent .menubar .icon{
+
+.parent .menubar .icon {
     color: white;
     padding: 5px 20px;
-    
-    
+
+
 }
-.tagline{
+
+/* border */
+.tagline {
     text-align: center;
 }
-.tag{
+
+.tag {
     color: white;
     font-size: 40px;
 }
-.btn{
+
+.btn {
     padding: 100px;
 }
-.btn button{
+
+.btn button {
     background-color: black;
     border-radius: 5px;
     height: 40px;
@@ -78,22 +92,25 @@ body{
     border: 1px solid white;
 
 }
-.btn button:hover{
+
+.btn button:hover {
     background-color: white;
     color: black;
 }
-.thirdsection{
+
+.thirdsection {
     height: 800px;
     width: 100%;
     background-color: black;
 }
-.thirdsection .third1{
+
+.thirdsection .third1 {
     color: white;
     padding: 80px;
     font-size: 25px;
 }
 
-.thirdsection .third1 .third-out{
+.thirdsection .third1 .third-out {
     border-radius: 5px;
     height: 40px;
     width: 110px;
@@ -101,61 +118,73 @@ body{
     color: white;
     border: 1px solid white;
 }
-.thirdsection .third1 .third-out:hover{
+
+.thirdsection .third1 .third-out:hover {
     background-color: white;
     color: black;
 }
-  .img1{
+
+.img1 {
     height: 400px;
     width: 700px;
     margin-left: 60px;
     display: flex;
     margin-top: 10px;
     float: left;
-  } 
-  .third{
+}
+
+.third {
     position: relative;
-  }
- .third video{
-   position: absolute;
+}
+
+.third video {
+    position: absolute;
     left: 38%;
     bottom: -250px;
-  }
-  .third .img1{
+}
+
+.third .img1 {
     position: absolute;
     z-index: 1;
-  }
-  .table{
+}
+
+.table {
     margin-top: 50px;
-       
-  }
-  .table a{
+
+}
+
+.table a {
     color: black;
-  }
-  .table img:hover{
+}
+
+.table img:hover {
     font-size: 110%;
 
-  }
-  .java{
+}
+
+.java {
     margin-top: 55px;
-  }
-  
-.title{
+}
+
+.title {
     color: white;
     text-align: center;
     position: relative;
 }
-.wedding{
+
+.wedding {
     background-color: white;
     color: black;
     padding: 15px;
 }
-.bordor{
+
+.bordor {
     border: 3px solid white;
     height: 500px;
     position: relative;
 }
-.title::before{
+
+.title::before {
     content: "";
     position: absolute;
     height: 35px;
@@ -167,7 +196,8 @@ body{
     z-index: -1;
     border-bottom: 0px;
 }
-.bordor::after{
+
+.bordor::after {
     content: "";
     position: absolute;
     height: 35px;
@@ -179,66 +209,75 @@ body{
     z-index: -1;
     border-top: 0px;
 }
-.imgsize{
+
+.imgsize {
     height: 300px;
-    width: 300px;  
+    width: 300px;
 }
-.center{
+
+.center {
     text-align: center;
 
 }
 
-.container{
+.container {
     margin: 0;
     align-items: center;
     display: flex;
     justify-content: space-between;
     padding: 50px;
-    
+
 }
 
-.images{
+.images {
     width: 50px;
     width: 50px;
 }
-.div1{
+
+.div1 {
     border: 1px solid black;
     padding: 10px;
 }
-.div2{
+
+.div2 {
     border: 1px solid black;
     padding: 10px;
 }
-.div3{
+
+.div3 {
     border: 1px solid black;
     padding: 10px;
 }
-.div4{
+
+.div4 {
     border: 1px solid black;
     padding: 10px;
 }
 
 
 /* cart suru akhan theke */
-.cart{
+.cart {
     display: flex;
     width: 30%;
 }
-.cart-img{
+
+.cart-img {
     height: 700px;
     width: 800px;
-padding: 5px;
-margin-left: 40px;
-margin-bottom: 20px;
+    padding: 5px;
+    margin-left: 40px;
+    margin-bottom: 20px;
 }
-#bold{
+
+#bold {
     margin-left: 50px;
     font-weight: bold;
     text-decoration: none;
     color: black;
     font-size: 30px;
 }
-#blur{
+
+#blur {
     margin-left: 50px;
     opacity: .5;
     text-decoration: none;
@@ -246,41 +285,50 @@ margin-bottom: 20px;
     font-size: 30px;
 }
 
-.div-right{
+.div-right {
     float: right;
-    margin-right:50px ;
+    margin-right: 50px;
     margin-top: 0;
 
 }
-#icon-space{
+
+#icon-space {
     margin-left: 15px;
 }
-#view{
+
+#view {
     text-decoration: none;
     color: black;
-    float: left;
-    padding-right: 15px;
+    align-items: center;
+    padding-right: 5px;
+    
+
 }
-.div-right a span:hover{
+
+.div-right a span:hover {
     color: white;
     background-color: black;
     transition: .5s;
 
 }
-#view:hover{
+
+#view:hover {
     text-decoration: underline;
 }
-.shoes img{
+
+.shoes img {
     height: 240px;
     width: 265px;
     float: left;
     margin-left: 40px;
-    
+
 }
-.clear{
+
+.clear {
     clear: both;
 }
-.shoes2 img{
+
+.shoes2 img {
     float: left;
     display: flex;
     height: 280px;
@@ -288,70 +336,81 @@ margin-bottom: 20px;
     padding: 5px;
     margin-left: 150px;
 }
-.container2{
-    
+
+.container2 {
+
     align-items: center;
     display: flex;
     justify-content: space-between;
-    
-    
-   
+
+
+
 }
 
-.container2 .d6 ul li{
-   text-align: center;
+.container2 .d6 ul li {
+    text-align: center;
     list-style-type: none;
 }
-h4{
-   text-align: center;
+
+h4 {
+    text-align: center;
 }
- .d5{
+
+.d5 {
     margin-left: 50px;
- }
- #inp{
+}
+
+#inp {
     border-radius: 5px;
     font-size: 150%;
- }
- #hoverbt{
+}
+
+#hoverbt {
     font-size: 150%;
     color: white;
     background-color: black;
- }
- #hoverbt:hover{
+}
+
+#hoverbt:hover {
     background-color: white;
     color: black;
- }
+}
 
-.d8 img{
+.d8 img {
     margin-right: 50px;
     height: 80px;
     width: 200px;
 }
-.logo-img{
+
+.logo-img {
     height: 60px;
     width: 100px;
-    
+
 }
 
-.logo-img1{
-     height: 60px;
+.logo-img1 {
+    height: 60px;
     width: 80px;
     text-align: center;
 }
-.d6 ul li{
+
+.d6 ul li {
     list-style-type: none;
-    
+
 }
-.d6 ul li a{
+
+.d6 ul li a {
     text-decoration: none;
     color: black;
 }
-.d7 ul li{
+
+.d7 ul li {
     list-style-type: none;
     text-align: center;
     text-decoration: none;
 }
-.d7 ul li a{
+
+.d7 ul li a {
     text-decoration: none;
     color: black;
 }
